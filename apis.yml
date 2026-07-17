@@ -1,0 +1,33 @@
+aid: bytedance
+name: ByteDance
+description: 'ByteDance is a company surfaced as a portfolio company of altimeter-capital, coatue, ggv-capital,
+  hongshan, idg-capital, softbank-vision-fund, tiger-global and added to the API Evangelist network as
+  a stub for enrichment. Sector: consumer-internet. This profile is a lead awaiting the enrichment pipeline.'
+url: https://raw.githubusercontent.com/api-evangelist/bytedance/refs/heads/main/apis.yml
+x-type: company
+x-source: vc-portfolio
+x-backed-by:
+- altimeter-capital
+- coatue
+- ggv-capital
+- hongshan
+- idg-capital
+- softbank-vision-fund
+- tiger-global
+x-tier: stub
+x-tier-reason: portfolio-lead
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+- Company
+- Consumer Internet
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.bytedance.com
