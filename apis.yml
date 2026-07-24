@@ -1,8 +1,27 @@
 aid: bytedance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bytedance.png
 name: ByteDance
-description: 'ByteDance is a company surfaced as a portfolio company of altimeter-capital, coatue, ggv-capital,
-  hongshan, idg-capital, softbank-vision-fund, tiger-global and added to the API Evangelist network as
-  a stub for enrichment. Sector: consumer-internet. This profile is a lead awaiting the enrichment pipeline.'
+description: 'ByteDance is a global technology company founded in 2012 and headquartered
+  in Beijing, operating across roughly 120 cities with more than 150,000 employees.
+  It builds content, creativity, and productivity platforms powered by machine learning,
+  including TikTok and Douyin (short-form video), Toutiao (news aggregation), CapCut
+  (video editing), Lark/Feishu (enterprise collaboration), Pico (virtual reality),
+  and the Volcano Engine cloud and AI platform. ByteDance maintains an active open
+  source presence on GitHub with 400+ public repositories spanning AI agent frameworks,
+  infrastructure, and media tooling. It was surfaced in the API Evangelist network
+  as a portfolio company of altimeter-capital, coatue, ggv-capital, hongshan, idg-capital,
+  softbank-vision-fund, and tiger-global.'
 url: https://raw.githubusercontent.com/api-evangelist/bytedance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -18,10 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer Internet
+- Social Media
+- Video
+- Artificial Intelligence
+- Content Platforms
+- Cloud
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -31,3 +56,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.bytedance.com
+- type: GitHubOrganization
+  url: https://github.com/bytedance
+- type: DomainSecurity
+  url: security/bytedance-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
