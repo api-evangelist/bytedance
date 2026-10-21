@@ -123,3 +123,29 @@
     detected: '2026-10-20'
   status: not-a-workflow
   arazzo: null
+- slug: bytedance-cocoapods-trunk
+  label: CocoaPods trunk
+  partner_name: CocoaPods trunk
+  category: iOS SDK (CocoaPods)
+  type: register
+  channel: package-registry
+  evidence: https://cocoapods.org/pods/BytedanceOpenPlatformSDK
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: CocoaPods trunk (cdn.cocoapods.org Specs; github.com/CocoaPods/Specs)
+    spec_file: null
+    role: cocoapods-publisher
+    registered_name: ByteDance
+    matched_domain: bytedance.com
+    matched_by: domain
+    pods:
+    - pod: BytedanceOpenPlatformSDK
+      version: 3.0.1
+      homepage: https://www.bytedance.com
+      deprecated: false
+    signal_note: latest podspec homepage (domain) + authors (name); pods, versions and counts are context
+    detected_by: sweep-mobile-sdk-index.py
+    detected: '2026-10-21'
+  status: not-a-workflow
+  arazzo: null
